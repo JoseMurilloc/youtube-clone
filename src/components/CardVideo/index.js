@@ -1,28 +1,25 @@
 import React from 'react';
 
 import { 
-  Container,
-  CardImageVideo,
-  ProfileAndTitle
+  Container
 } from './styles';
+
+import linkparkthumb from '../../assets/linkparkthumb.svg';
+import check from '../../assets/check.svg';
 
 const CardVideo = () => {
   return (
     <Container>
-        <CardImageVideo 
-          src="https://i.ytimg.com/vi/7yyW7z8fbB4/maxresdefault.jpg" 
-          alt="imagem video"
-        />  
-      <ProfileAndTitle>
-        <img 
-          src="https://yt3.ggpht.com/a/AATXAJz-oJY2C2N2gxv09ri8u0twlKqtaeQJTVYixpDh0w=s900-c-k-c0x00ffffff-no-rj" 
-          alt="Perfil do canal"
-        />
-        <h1>APP CODE REVIEW DO APP MOBILE</h1>
-      </ProfileAndTitle>
-      <span>Rocketseat</span>
-      <span>11k Views</span>
-
+      <img src={linkparkthumb} alt="Thumbmail"/>
+      <div>
+        <img src="https://i.pinimg.com/originals/c8/a5/39/c8a53946edee70b5af7208ed3e898981.jpg" alt="profile"/>
+        <h1>Numb (Official Video) - Linkin Park</h1>
+      </div>
+      <span>
+        Linkin Park
+        <img src={check} alt=""/>
+      </span> <br/>
+      <span>100 mil visualizações hás 2 horas</span>
     </Container>
   );
 };

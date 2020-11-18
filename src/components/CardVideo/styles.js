@@ -1,20 +1,39 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-
-`;
-
-export const CardImageVideo = styled.img`
-  width: 500px;
-`;
-
-export const ProfileAndTitle = styled.div`
-  img {
-    width: 50px;  
-    border-radius: 25px;
-    margin-right: 10px;
+  > img {
+    width: 250px;
+    height: 150px;
   }
 
-  display: flex;
-  align-items: center;
+  div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+  div img {
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+  }
+
+  div h1 {
+    width: 200px;
+    height: 43px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+
+  span {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #949494;
+  }
 `;
