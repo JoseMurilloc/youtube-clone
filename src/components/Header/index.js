@@ -8,7 +8,7 @@ import { MdNotifications } from 'react-icons/md';
 import cameraPlus from '../../assets/camera_plus.svg';
 import app from '../../assets/app.svg';
 
-import { Container, YoutubeLogo } from './styles';
+import { Container, YoutubeLogo, AppImg } from './styles';
 
 const Header = () => {
   return (
@@ -28,12 +28,12 @@ const Header = () => {
         </button>
       </form>
 
-    <div>
-      <img src={cameraPlus} alt="Plus"/>
-      <img src={app} alt="App"/>
-      <MdNotifications size={25} color="#fff" />
-      <img src="https://avatars0.githubusercontent.com/u/43470555?s=460&u=d5a88d8aa43e4fc0f53a417320d1cc6fb4fc13d5&v=4" alt="Profile"/>
-    </div>
+      <div>
+        <img src={cameraPlus} alt="Plus"/>
+        <AppImg src={app} alt="App"/>
+        <MdNotifications size={25} color="#fff" />
+        <img src="https://avatars0.githubusercontent.com/u/43470555?s=460&u=d5a88d8aa43e4fc0f53a417320d1cc6fb4fc13d5&v=4" alt="Profile"/>
+      </div>
   </Container>
   );
 };

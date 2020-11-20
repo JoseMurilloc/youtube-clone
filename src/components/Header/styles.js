@@ -40,7 +40,7 @@ export const Container = styled.header`
   }
 
   div img {
-    width: 35px;
+    width: 30px;
     border-radius: 20px;
   }
 `;
@@ -54,4 +54,9 @@ export const YoutubeLogo = styled.div`
     font-size: 18px;
     font-weight: bold;
   }
+`;
+
+export const AppImg = styled.img`
+  border-radius: 0 !important;
+  width: 20px !important;
 `;
