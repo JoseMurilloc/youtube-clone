@@ -2,16 +2,34 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   background-color: #212121;
-  height: 100vh;
+  height: 90vh;
   width: 240px;
+  overflow: auto;
 
   div {
     border-bottom: 1px solid #383838;
   }
 
-  div span {
+  footer {
+
+    width: 158px;
+    height: 165px;
+
     font-weight: 500px;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 15px;
+
     color: #343434;
+  }
+
+  footer span {
+    margin-top: 37px;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 15px;
+
+    color: #FFFFFF; 
   }
 `;
 

@@ -14,4 +14,20 @@ export default createGlobalStyle`
     font-size: 13px;
     font-family: Roboto, sans-serif;
   }
+
+  ::-webkit-scrollbar {
+    width: 5px;    
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #383838; 
+    border-radius: 10px;
+  }
+
+  /* Handle on hover #212121 */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #383838; 
+  }
+
 `;
