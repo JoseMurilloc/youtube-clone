@@ -22,6 +22,11 @@ const Home = () => {
               <CardVideo />
               <CardVideo live={true}/>
               <CardVideo />
+
+              <CardVideo live={true} />
+              <CardVideo />
+              <CardVideo live={true}/>
+              <CardVideo />
           </CardVideoGrid>
       </Main>
     </Container>

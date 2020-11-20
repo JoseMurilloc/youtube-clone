@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   background-color: #212121;
-  height: 90vh;
+  height: 91vh;
   width: 240px;
   overflow: auto;
 
@@ -21,6 +21,7 @@ export const Container = styled.div`
     line-height: 15px;
 
     color: #343434;
+    margin-bottom: 10px;
   }
 
   footer span {
