@@ -1,25 +1,32 @@
 import React from 'react';
 
 import { 
-  Container
+  Container,
+  ContainerLive
 } from './styles';
 
-import linkparkthumb from '../../assets/linkparkthumb.svg';
 import check from '../../assets/check.svg';
 
-const CardVideo = () => {
+const CardVideo = ({ live=false}) => {
   return (
     <Container>
-      <img src={linkparkthumb} alt="Thumbmail"/>
+      <img src="https://i.ytimg.com/vi/racmy7Y9P4M/maxresdefault.jpg" alt="Thumbmail"/>
       <div>
-        <img src="https://i.pinimg.com/originals/c8/a5/39/c8a53946edee70b5af7208ed3e898981.jpg" alt="profile"/>
-        <h1>Numb (Official Video) - Linkin Park</h1>
+        <img src="https://yt3.ggpht.com/ytc/AAUvwngNqcWYtovTnQmfwAfoFnssxeV-EI-b-v0aKAbqKQ=s88-c-k-c0x00ffffff-no-rj" alt="profile"/>
+        <h1>Bring Me The Horizon - Parasite Eve (Official Video)</h1>
       </div>
       <span>
-        Linkin Park
+        Bring Me The Horizon
         <img src={check} alt=""/>
       </span> <br/>
-      <span>100 mil visualizações hás 2 horas</span>
+      <span>100 mil visualizações</span> <br/>
+      
+      {live ? (
+        <ContainerLive>AO VIVO AGORA</ContainerLive>
+      ) : (
+        <span>hás 2 horas</span>
+      )}
+
     </Container>
   );
 };

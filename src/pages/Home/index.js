@@ -2,7 +2,8 @@ import React from 'react';
 
 import { 
   Container,
-  Main
+  Main,
+  CardVideoGrid
 } from './styles';
 
 import Header from '../../components/Header';
@@ -16,7 +17,12 @@ const Home = () => {
       <Header />
       <Main>
         <SideBar />
-        <CardVideo />
+          <CardVideoGrid>
+              <CardVideo live={true} />
+              <CardVideo />
+              <CardVideo live={true}/>
+              <CardVideo />
+          </CardVideoGrid>
       </Main>
     </Container>
   );
