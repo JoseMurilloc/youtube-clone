@@ -21,6 +21,7 @@ export const Container = styled.div`
     line-height: 15px;
 
     color: #343434;
+    /* background-color: purple; */
     margin-bottom: 10px;
   }
 
@@ -41,6 +42,17 @@ export const OptionsMenu = styled.div`
   font-size: 14px;
   line-height: 16px;
   color: #fff;
+
+  h1 {
+    color: #8e8e8e;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 25px;
+  }
 
 
   li {

@@ -11,6 +11,10 @@ import time from '../../assets/time.svg';
 import movies from '../../assets/movies.svg';
 import videos from '../../assets/videos.svg';
 import array from '../../assets/array.svg';
+import logoYoutube from '../../assets/logo-youtube.svg';
+import logoGame from '../../assets/logo-game.svg';
+import lamp from '../../assets/lamp.svg';
+import aoVivo from '../../assets/ao-vivo.svg';
 
 
 const SideBar = () => {
@@ -58,16 +62,31 @@ const SideBar = () => {
         </ul>
       </OptionsMenu>
 
-      <div>
-        <h1>Mais vídeos</h1>
+      <OptionsMenu>
+        <h1>Mais do youtube</h1>
         <ul>
-          <li>Youtube Premium</li>
-          <li>Filmes</li>
-          <li>Jogos</li>
-          <li>Ao vivo</li>
-          <li>Aprender</li>
+          <li>
+            <img src={logoYoutube} alt="Logo youtube"/>
+            Youtube Premium
+          </li>
+          <li>
+            <img src={movies} alt="Movies"/>
+            Filmes
+          </li>
+          <li>
+            <img src={logoGame} alt="Logo game"/>
+            Jogos
+          </li>
+          <li>
+            <img src={aoVivo} alt=""/>
+            Ao vivo
+          </li>
+          <li>
+            <img src={lamp} alt=""/>
+            Aprender
+          </li>
         </ul>
-      </div>
+      </OptionsMenu>
 
       <div>
         <ul>
