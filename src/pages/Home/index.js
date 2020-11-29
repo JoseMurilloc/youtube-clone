@@ -15,19 +15,19 @@ const Home = () => {
   return (
     <Container>
       <Header />
+      <SideBar />
       <Main>
-        <SideBar />
-          <CardVideoGrid>
-              <CardVideo live={true} />
-              <CardVideo />
-              <CardVideo live={true}/>
-              <CardVideo />
+        <CardVideoGrid>
+            <CardVideo live={true} />
+            <CardVideo />
+            <CardVideo live={true}/>
+            <CardVideo live={true}/>
 
-              <CardVideo live={true} />
-              <CardVideo />
-              <CardVideo live={true}/>
-              <CardVideo />
-          </CardVideoGrid>
+            <CardVideo live={true} />
+            <CardVideo />
+            <CardVideo live={true}/>
+            <CardVideo live={true}/>
+        </CardVideoGrid>
       </Main>
     </Container>
   );
