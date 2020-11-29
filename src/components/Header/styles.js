@@ -5,11 +5,13 @@ export const Container = styled.header`
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background-color: #202020;
+  background-color: #212121;
+  position: fixed;
 
   padding: 0 30px;
 
   height: 60px;
+  width: 100%;
 
   > div {
     /* background-color: green; */

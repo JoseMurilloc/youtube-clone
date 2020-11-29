@@ -2,6 +2,10 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   background-color: #212121;
+
+  position: fixed;
+  top: 60px;
+
   height: 91vh;
   width: 240px;
   overflow: auto;
@@ -12,7 +16,7 @@ export const Container = styled.div`
 
   footer {
 
-    width: 158px;
+    width: 100%;
     height: 165px;
 
     font-weight: 500px;
@@ -23,15 +27,18 @@ export const Container = styled.div`
     color: #343434;
     /* background-color: purple; */
     margin-bottom: 10px;
+    padding: 17px 25px;
   }
 
   footer span {
-    margin-top: 37px;
+    font-style: normal;
     font-weight: bold;
     font-size: 13px;
     line-height: 15px;
+  }
 
-    color: #FFFFFF; 
+  footer p {
+    margin-top: 25px;
   }
 `;
 

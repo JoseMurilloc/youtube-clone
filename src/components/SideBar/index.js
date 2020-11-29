@@ -98,13 +98,15 @@ const SideBar = () => {
       </div>
 
       <footer>
-        <p>Sobre Imprensa</p>
-        <p>Direitos autorais</p>
-        <p>Entre em contato</p>
-        <p>Criadores de conteúdo</p>
-        <p>Publicidade Desenvolvedores</p>
-
-        <span>Termos Privacidade Política e Segurança Como funciona o YouTube Testar os novos recursos</span>
+        <span>
+          Sobre Imprensa<br/>
+          Direitos autorais<br/>
+          Entre em contato<br/>
+          Criadores de conteúdo<br/>
+          Publicidade Desenvolvedores<br/>
+        </span>
+        <p>Termos Privacidade Política e Segurança Como funciona o YouTube Testar os novos recursos</p>
+        <br/>
         <span>© 2020 Google LLC</span>
       </footer>
     </Container>
