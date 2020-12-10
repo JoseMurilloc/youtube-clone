@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { Container, OptionsMenu } from './styles';
 
 import sub from '../../assets/sub.svg';

@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { GoThreeBars } from 'react-icons/go';
 import { SiYoutube } from 'react-icons/si';
 import { ImSearch } from 'react-icons/im';
