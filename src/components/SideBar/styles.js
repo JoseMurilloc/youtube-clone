@@ -67,6 +67,11 @@ export const OptionsMenu = styled.div`
     align-items: center;
     height: 40px;
     padding: 0 20px;
+    cursor: pointer;
+
+    &:hover {
+      background: #383838;
+    }
 
     img {
       margin-right: 20px; 

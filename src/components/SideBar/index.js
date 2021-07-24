@@ -12,8 +12,11 @@ import array from '../../assets/array.svg';
 import logoYoutube from '../../assets/logo-youtube.svg';
 import logoGame from '../../assets/logo-game.svg';
 import lamp from '../../assets/lamp.svg';
-import aoVivo from '../../assets/ao-vivo.svg';
-
+import live from '../../assets/ao-vivo.svg';
+import setting from '../../assets/setting.svg'
+import history from '../../assets/history.svg'
+import help from '../../assets/help.svg'
+import sendFeedback from '../../assets/send-feedback.svg'
 
 const SideBar = () => {
   return (
@@ -76,7 +79,7 @@ const SideBar = () => {
             Jogos
           </li>
           <li>
-            <img src={aoVivo} alt=""/>
+            <img src={live} alt=""/>
             Ao vivo
           </li>
           <li>
@@ -86,14 +89,26 @@ const SideBar = () => {
         </ul>
       </OptionsMenu>
 
-      <div>
+      <OptionsMenu>
         <ul>
-          <li>Configurações</li>
-          <li>Histórico de denúncias</li>
-          <li>Ajuda</li>
-          <li>Enviar feedback</li>
+          <li>
+            <img src={setting} alt="setting-icon" />
+            Configurações
+          </li>
+          <li>
+            <img src={history} alt="history-icon" />
+            Histórico de denúncias
+          </li>
+          <li>
+            <img src={help} alt="help-icon" />
+            Ajuda
+          </li>
+          <li>
+            <img src={sendFeedback} alt="send-feedback" />
+            Enviar feedback
+          </li>
         </ul>
-      </div>
+      </OptionsMenu>
 
       <footer>
         <span>
